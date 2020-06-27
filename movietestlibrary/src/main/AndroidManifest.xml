@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.madfooatcom.movietestlibrary"
+    >
+    <application>
+        <activity android:name=".ui.feature.detailtvshow.DetailTVShowActivity" />
+        <activity android:name=".ui.feature.detailmovie.DetailMovieActivity" />
+        <activity android:name=".ui.MovieMainActivity">
+
+        </activity>
+    </application>
+</manifest>
