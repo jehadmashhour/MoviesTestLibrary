@@ -11,7 +11,7 @@ import com.madfooatcom.movietestlibrary.data.local.entity.TvShowEntity
 import com.madfooatcom.movietestlibrary.utils.Converter
 import com.madfooatcom.movietestlibrary.utils.GenresConverter
 
-@Database(entities = [MovieEntity::class, TvShowEntity::class, MovieDetailEntity::class, TvShowDetailEntity::class], version = 1)
+@Database(entities = [MovieEntity::class, TvShowEntity::class, MovieDetailEntity::class, TvShowDetailEntity::class], version = 1,exportSchema = false)
 @TypeConverters(Converter::class, GenresConverter::class)
 abstract class TMDBdb : RoomDatabase() {
     abstract fun tmdbDao(): TMDBDao
