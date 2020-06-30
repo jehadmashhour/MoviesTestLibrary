@@ -16,7 +16,7 @@ ext {
     siteUrl = 'https://github.com/jehadmashhour/MoviesTestLibrary'
     gitUrl = 'https://github.com/jehadmashhour/MoviesTestLibrary.git'
 
-    libraryVersion = '2.0.0'
+    libraryVersion = '9.0.0'
 
     developerId = 'farawla'
     developerName = 'Jehad Abdalqader'
@@ -26,6 +26,9 @@ ext {
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
 }
+
+
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
@@ -43,7 +46,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 2
-        versionName "2.0.0"
+        versionName "9.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'consumer-rules.pro'
@@ -52,7 +55,7 @@ android {
     buildTypes {
         release {
             signingConfig signingConfigs.config
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -80,68 +83,128 @@ repositories {
 
 dependencies {
 
-    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72'
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    api 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72'
+    api 'androidx.appcompat:appcompat:1.1.0'
+    api 'androidx.constraintlayout:constraintlayout:1.1.3'
 
     //noinspection GradleDependency
-    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0-alpha04'
-    implementation 'com.google.android.material:material:1.1.0'
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    api 'androidx.lifecycle:lifecycle-extensions:2.1.0-alpha04'
+    api 'com.google.android.material:material:1.1.0'
+    api 'androidx.legacy:legacy-support-v4:1.0.0'
 
-    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    api 'com.github.bumptech.glide:glide:4.11.0'
     kapt 'com.github.bumptech.glide:compiler:4.11.0'
-    implementation 'androidx.recyclerview:recyclerview:1.1.0'
-    implementation 'androidx.cardview:cardview:1.0.0'
-    androidTestImplementation 'androidx.test:runner:1.2.0'
-    androidTestImplementation('androidx.test.espresso:espresso-contrib:3.2.0') {
+    api 'androidx.recyclerview:recyclerview:1.1.0'
+    api 'androidx.cardview:cardview:1.0.0'
+    androidTestApi 'androidx.test:runner:1.2.0'
+    androidTestApi('androidx.test.espresso:espresso-contrib:3.2.0') {
         exclude group: 'com.android.support', module: 'appcompat'
         exclude group: 'com.android.support', module: 'support-v4'
         exclude module: 'recyclerview-v7'
     }
-    androidTestImplementation 'androidx.test:rules:1.2.0'
+    androidTestApi 'androidx.test:rules:1.2.0'
 
-    implementation 'com.github.florent37:shapeofview:1.4.7'
+    api 'com.github.florent37:shapeofview:1.4.7'
     // Required -- JUnit 4 framework
-    testImplementation 'junit:junit:4.13'
+    testApi 'junit:junit:4.13'
     // Optional -- Robolectric environment
-    testImplementation 'androidx.test:core:1.2.0'
+    testApi 'androidx.test:core:1.2.0'
 
-    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    api 'com.squareup.retrofit2:converter-gson:2.9.0'
 
-    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0"
-    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0"
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+    api "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0"
+    api "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0"
+    api "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
 
-    implementation "org.koin:koin-androidx-scope:2.1.3"
+    api "org.koin:koin-androidx-scope:2.1.3"
 // Koin AndroidX ViewModel features
-    implementation "org.koin:koin-androidx-viewmodel:2.1.3"
+    api "org.koin:koin-androidx-viewmodel:2.1.3"
 // Koin AndroidX Fragment features
-    implementation "org.koin:koin-androidx-fragment:2.1.3"
+    api "org.koin:koin-androidx-fragment:2.1.3"
 // Koin AndroidX Experimental features
-    implementation "org.koin:koin-androidx-ext:2.1.3"
-    implementation "com.squareup.retrofit2:retrofit:2.9.0"
-    implementation "com.squareup.retrofit2:converter-gson:2.9.0"
-    implementation "com.squareup.retrofit2:adapter-rxjava2:2.7.1"
-    implementation "com.squareup.okhttp3:okhttp:4.7.2"
-    implementation "com.squareup.okhttp3:logging-interceptor:4.7.2"
-    implementation "io.reactivex.rxjava2:rxandroid:2.1.1"
-    implementation "io.reactivex.rxjava2:rxjava:2.2.10"
-    implementation 'io.supercharge:shimmerlayout:2.1.0'
-    implementation "androidx.test.espresso:espresso-idling-resource:3.2.0"
+    api "org.koin:koin-androidx-ext:2.1.3"
+    api "com.squareup.retrofit2:retrofit:2.9.0"
+    api "com.squareup.retrofit2:converter-gson:2.9.0"
+    api "com.squareup.retrofit2:adapter-rxjava2:2.7.1"
+    api "com.squareup.okhttp3:okhttp:4.7.2"
+    api "com.squareup.okhttp3:logging-interceptor:4.7.2"
+    api "io.reactivex.rxjava2:rxandroid:2.1.1"
+    api "io.reactivex.rxjava2:rxjava:2.2.10"
+    api 'io.supercharge:shimmerlayout:2.1.0'
+    api "androidx.test.espresso:espresso-idling-resource:3.2.0"
 
-    testImplementation "org.mockito:mockito-core:3.2.4"
-    testImplementation "org.mockito:mockito-inline:3.0.0"
-    testImplementation "androidx.arch.core:core-testing:2.1.0"
-    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0"
+    testApi "org.mockito:mockito-core:3.2.4"
+    testApi "org.mockito:mockito-inline:3.0.0"
+    testApi "androidx.arch.core:core-testing:2.1.0"
+    testApi "com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0"
 
-    implementation 'androidx.room:room-runtime:2.2.5'
+    api 'androidx.room:room-runtime:2.2.5'
     kapt 'androidx.room:room-compiler:2.2.5'
-    implementation 'androidx.room:room-rxjava2:2.2.5'
-    implementation 'androidx.paging:paging-runtime:2.1.2'
-    implementation "androidx.paging:paging-rxjava2:2.1.2"
+    api 'androidx.room:room-rxjava2:2.2.5'
+    api 'androidx.paging:paging-runtime:2.1.2'
+    api "androidx.paging:paging-rxjava2:2.1.2"
+}
+
+apply plugin: 'com.jfrog.bintray'
+
+version = libraryVersion
+
+if (project.hasProperty("android")) { // Android libraries
+    task sourcesJar(type: Jar) {
+        classifier = 'sources'
+        from android.sourceSets.main.java.srcDirs
+    }
+
+    task javadoc(type: Javadoc) {
+        source = android.sourceSets.main.java.srcDirs
+        classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+    }
+} else { // Java libraries
+    task sourcesJar(type: Jar, dependsOn: classes) {
+        classifier = 'sources'
+        from sourceSets.main.allSource
+    }
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+artifacts {
+    archives javadocJar
+    archives sourcesJar
+}
+
+// Bintray
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+bintray {
+    user = properties.getProperty("bintray.user")
+    key = properties.getProperty("bintray.apikey")
+
+    configurations = ['archives']
+    pkg {
+        repo = bintrayRepo
+        name = bintrayName
+        desc = libraryDescription
+        websiteUrl = siteUrl
+        vcsUrl = gitUrl
+        licenses = allLicenses
+        userOrg = 'farawla'
+        publish = true
+        publicDownloadNumbers = true
+        version {
+            desc = libraryDescription
+            gpg {
+                sign = true //Determines whether to GPG sign the files. The default is false
+                passphrase = properties.getProperty("bintray.gpg.password")
+                //Optional. The passphrase for GPG signing'
+            }
+        }
+    }
 }
 if (project.rootProject.file('local.properties').exists()) {
     apply from: 'https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/install.gradle'
-    apply from: 'https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/bintray.gradle'
 }
