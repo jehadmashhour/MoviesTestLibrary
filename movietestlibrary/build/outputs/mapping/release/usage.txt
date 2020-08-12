@@ -570,10 +570,10 @@ com.madfooatcom.movietestlibrary.MovieInitializer$init$1:
 com.madfooatcom.movietestlibrary.ui.adapter.MovieFavoriteAdapter$ViewHolder:
     public final void bind(com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
     public final synthetic com.madfooatcom.movietestlibrary.ui.adapter.MovieFavoriteAdapter this$0
-com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$18:
-    public final okhttp3.OkHttpClient invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
 com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$2:
     public final com.madfooatcom.movietestlibrary.ui.feature.tvshow.TvShowViewModel invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$18:
+    public final okhttp3.OkHttpClient invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
 com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity:
     public final java.lang.String getOriginalLanguage()
     public final void setOriginalLanguage(java.lang.String)
