@@ -1,0 +1,4 @@
+#Wed Jul 01 02:08:56 EEST 2020
+base.0=D\:\\GithubSamples\\rx-mvvm-master\\app\\build\\intermediates\\dex\\release\\shrunkDex\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\GithubSamples\\rx-mvvm-master\\movietestlibrary\\build\\intermediates\\res\\merged\\release\\xml\\standalone_badge_gravity_bottom_start.xml",
+        "source": "C:\\Users\\jabdalqader\\.gradle\\caches\\transforms-2\\files-2.1\\214cb4337cacf7a7c32a39a92a03dee2\\material-1.1.0\\res\\xml\\standalone_badge_gravity_bottom_start.xml"
+    },
+    {
+        "merged": "D:\\GithubSamples\\rx-mvvm-master\\movietestlibrary\\build\\intermediates\\res\\merged\\release\\xml\\standalone_badge_gravity_top_start.xml",
+        "source": "C:\\Users\\jabdalqader\\.gradle\\caches\\transforms-2\\files-2.1\\214cb4337cacf7a7c32a39a92a03dee2\\material-1.1.0\\res\\xml\\standalone_badge_gravity_top_start.xml"
+    },
+    {
+        "merged": "D:\\GithubSamples\\rx-mvvm-master\\movietestlibrary\\build\\intermediates\\res\\merged\\release\\xml\\standalone_badge.xml",
+        "source": "C:\\Users\\jabdalqader\\.gradle\\caches\\transforms-2\\files-2.1\\214cb4337cacf7a7c32a39a92a03dee2\\material-1.1.0\\res\\xml\\standalone_badge.xml"
+    },
+    {
+        "merged": "D:\\GithubSamples\\rx-mvvm-master\\movietestlibrary\\build\\intermediates\\res\\merged\\release\\xml\\standalone_badge_gravity_bottom_end.xml",
+        "source": "C:\\Users\\jabdalqader\\.gradle\\caches\\transforms-2\\files-2.1\\214cb4337cacf7a7c32a39a92a03dee2\\material-1.1.0\\res\\xml\\standalone_badge_gravity_bottom_end.xml"
+    }
+]

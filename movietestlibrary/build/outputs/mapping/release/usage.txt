@@ -1,0 +1,875 @@
+com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.SpokenLanguagesItem
+com.madfooatcom.movietestlibrary.domain.SchedulerProviders$Companion:
+    public static synthetic void DEFAULT$annotations()
+    public static synthetic void TEST_SCHEDULER$annotations()
+    public final com.madfooatcom.movietestlibrary.domain.SchedulerProviders getTEST_SCHEDULER()
+com.madfooatcom.movietestlibrary.utils.LocalData$typeTvShow$1
+com.madfooatcom.movietestlibrary.domain.SchedulerProviders:
+    public static com.madfooatcom.movietestlibrary.domain.SchedulerProviders getDEFAULT()
+    public static com.madfooatcom.movietestlibrary.domain.SchedulerProviders getTEST_SCHEDULER()
+com.madfooatcom.movietestlibrary.utils.EkstentionsKt:
+    public static final java.lang.String getNewSDF
+    public static final java.lang.String getOldSdf
+com.madfooatcom.movietestlibrary.data.local.entity.MovieEntity:
+    public synthetic void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.util.List,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.Float,java.lang.Long,java.lang.Boolean,java.lang.Long,int,kotlin.jvm.internal.DefaultConstructorMarker)
+    public static synthetic com.madfooatcom.movietestlibrary.data.local.entity.MovieEntity copy$default(com.madfooatcom.movietestlibrary.data.local.entity.MovieEntity,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.util.List,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.Float,java.lang.Long,java.lang.Boolean,java.lang.Long,int,java.lang.Object)
+    public final java.lang.String component1()
+    public final java.lang.String component2()
+    public final java.lang.String component3()
+    public final java.lang.Boolean component4()
+    public final java.lang.String component5()
+    public final java.util.List component6()
+    public final java.lang.String component7()
+    public final java.lang.String component8()
+    public final java.lang.String component9()
+    public final java.lang.Double component10()
+    public final java.lang.Float component11()
+    public final java.lang.Long component12()
+    public final java.lang.Boolean component13()
+    public final java.lang.Long component14()
+    public final com.madfooatcom.movietestlibrary.data.local.entity.MovieEntity copy(java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.util.List,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.Float,java.lang.Long,java.lang.Boolean,java.lang.Long)
+com.madfooatcom.movietestlibrary.BR:
+    public void <init>()
+com.madfooatcom.movietestlibrary.ui.adapter.MovieAdapter$ViewHolder:
+    public final com.madfooatcom.movietestlibrary.databinding.ItemMoviesBinding getDataBinding()
+    public final void setDataBinding(com.madfooatcom.movietestlibrary.databinding.ItemMoviesBinding)
+com.madfooatcom.movietestlibrary.domain.LocalDataSource
+com.madfooatcom.movietestlibrary.ui.adapter.TvShowAdapter$ViewHolder:
+    public final com.madfooatcom.movietestlibrary.databinding.ItemTvshowBinding getBinding()
+    public final void setBinding(com.madfooatcom.movietestlibrary.databinding.ItemTvshowBinding)
+com.madfooatcom.movietestlibrary.utils.LocalData$typeTvShowDetail$1
+com.madfooatcom.movietestlibrary.domain.MovieRepository
+com.madfooatcom.movietestlibrary.utils.GenresConverter:
+    public void <init>()
+com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.BelongsToCollection:
+    public static synthetic com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.BelongsToCollection copy$default(com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.BelongsToCollection,java.lang.String,java.lang.String,java.lang.Long,java.lang.String,int,java.lang.Object)
+    public final java.lang.String getBackdropPath()
+    public final void setBackdropPath(java.lang.String)
+    public final java.lang.String getName()
+    public final void setName(java.lang.String)
+    public final java.lang.Long getId()
+    public final void setId(java.lang.Long)
+    public final java.lang.String getPosterPath()
+    public final void setPosterPath(java.lang.String)
+    public final java.lang.String component1()
+    public final java.lang.String component2()
+    public final java.lang.Long component3()
+    public final java.lang.String component4()
+    public final com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.BelongsToCollection copy(java.lang.String,java.lang.String,java.lang.Long,java.lang.String)
+com.madfooatcom.movietestlibrary.domain.RemoteDataSource
+com.madfooatcom.movietestlibrary.BuildConfig
+com.madfooatcom.movietestlibrary.DataBinderMapperImpl$InnerBrLookup:
+    private void <init>()
+com.madfooatcom.movietestlibrary.data.remote.response.tvshow.poular.TvShowResponse:
+    public void <init>(java.lang.Integer,java.lang.Integer,java.util.List,java.lang.Integer)
+    public synthetic void <init>(java.lang.Integer,java.lang.Integer,java.util.List,java.lang.Integer,int,kotlin.jvm.internal.DefaultConstructorMarker)
+    public static synthetic com.madfooatcom.movietestlibrary.data.remote.response.tvshow.poular.TvShowResponse copy$default(com.madfooatcom.movietestlibrary.data.remote.response.tvshow.poular.TvShowResponse,java.lang.Integer,java.lang.Integer,java.util.List,java.lang.Integer,int,java.lang.Object)
+    public final java.lang.Integer getPage()
+    public final java.lang.Integer getTotalPages()
+    public final java.lang.Integer getTotalResults()
+    public final java.lang.Integer component1()
+    public final java.lang.Integer component2()
+    public final java.util.List component3()
+    public final java.lang.Integer component4()
+    public final com.madfooatcom.movietestlibrary.data.remote.response.tvshow.poular.TvShowResponse copy(java.lang.Integer,java.lang.Integer,java.util.List,java.lang.Integer)
+com.madfooatcom.movietestlibrary.domain.idlingresource.EspressoIdlingResource:
+    public final androidx.test.espresso.idling.CountingIdlingResource getIdlingResource()
+    private static final java.lang.String RESOURCE
+com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.Dates:
+    public void <init>(java.lang.String,java.lang.String)
+    public synthetic void <init>(java.lang.String,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker)
+    public void <init>()
+    public static synthetic com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.Dates copy$default(com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.Dates,java.lang.String,java.lang.String,int,java.lang.Object)
+    public final java.lang.String getMaximum()
+    public final java.lang.String getMinimum()
+    public final java.lang.String component1()
+    public final java.lang.String component2()
+    public final com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.Dates copy(java.lang.String,java.lang.String)
+    public java.lang.String toString()
+    public int hashCode()
+    public boolean equals(java.lang.Object)
+    private final java.lang.String maximum
+    private final java.lang.String minimum
+com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.SeasonsItem
+com.madfooatcom.movietestlibrary.domain.TvShowRepository
+com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.NetworksItem
+com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.NextEpisodeToAir:
+    public static synthetic com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.NextEpisodeToAir copy$default(com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.NextEpisodeToAir,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Object,java.lang.Integer,int,java.lang.Object)
+    public final java.lang.String getProductionCode()
+    public final java.lang.String getAirDate()
+    public final java.lang.String getOverview()
+    public final java.lang.Integer getEpisodeNumber()
+    public final java.lang.Integer getShowId()
+    public final java.lang.Integer getVoteAverage()
+    public final java.lang.String getName()
+    public final java.lang.Integer getSeasonNumber()
+    public final java.lang.Integer getId()
+    public final java.lang.Object getStillPath()
+    public final java.lang.Integer getVoteCount()
+    public final java.lang.String component1()
+    public final java.lang.String component2()
+    public final java.lang.String component3()
+    public final java.lang.Integer component4()
+    public final java.lang.Integer component5()
+    public final java.lang.Integer component6()
+    public final java.lang.String component7()
+    public final java.lang.Integer component8()
+    public final java.lang.Integer component9()
+    public final java.lang.Object component10()
+    public final java.lang.Integer component11()
+    public final com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.NextEpisodeToAir copy(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Object,java.lang.Integer)
+com.madfooatcom.movietestlibrary.common.ViewState:
+    public static synthetic com.madfooatcom.movietestlibrary.common.ViewState copy$default(com.madfooatcom.movietestlibrary.common.ViewState,java.lang.Object,java.lang.Throwable,com.madfooatcom.movietestlibrary.common.ViewState$State,int,java.lang.Object)
+    public final java.lang.Object component1()
+    public final java.lang.Throwable component2()
+    public final com.madfooatcom.movietestlibrary.common.ViewState$State component3()
+    public final com.madfooatcom.movietestlibrary.common.ViewState copy(java.lang.Object,java.lang.Throwable,com.madfooatcom.movietestlibrary.common.ViewState$State)
+com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.ProductionCompaniesItem
+com.madfooatcom.movietestlibrary.di.ModuleKt:
+    public static final synthetic java.lang.Object createApiService(retrofit2.Retrofit)
+com.madfooatcom.movietestlibrary.utils.LocalData$typeMovie$1
+com.madfooatcom.movietestlibrary.common.ViewState$State:
+    public final java.lang.Integer getValue()
+    public final void setValue(java.lang.Integer)
+com.madfooatcom.movietestlibrary.utils.LocalData
+com.madfooatcom.movietestlibrary.ui.adapter.MovieFavoriteAdapter$ViewHolder:
+    public final com.madfooatcom.movietestlibrary.databinding.ItemFavoriteMoviesBinding getView()
+    public final void setView(com.madfooatcom.movietestlibrary.databinding.ItemFavoriteMoviesBinding)
+com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity:
+    public static synthetic com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity copy$default(com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.Long,java.util.List,java.lang.Float,java.util.List,java.lang.Long,java.lang.Long,java.lang.Long,java.lang.String,java.lang.String,java.lang.Long,java.lang.String,java.util.List,java.util.List,java.lang.String,java.lang.Float,com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.BelongsToCollection,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.Boolean,int,java.lang.Object)
+    public final java.util.List getProductionCountries()
+    public final void setProductionCountries(java.util.List)
+    public final java.util.List getSpokenLanguages()
+    public final void setSpokenLanguages(java.util.List)
+    public final java.util.List getProductionCompanies()
+    public final void setProductionCompanies(java.util.List)
+    public final com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.BelongsToCollection getBelongsToCollection()
+    public final void setBelongsToCollection(com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.BelongsToCollection)
+    public final java.lang.String component1()
+    public final java.lang.String component2()
+    public final java.lang.Boolean component3()
+    public final java.lang.String component4()
+    public final java.lang.String component5()
+    public final java.lang.Long component6()
+    public final java.util.List component7()
+    public final java.lang.Float component8()
+    public final java.util.List component9()
+    public final java.lang.Long component10()
+    public final java.lang.Long component11()
+    public final java.lang.Long component12()
+    public final java.lang.String component13()
+    public final java.lang.String component14()
+    public final java.lang.Long component15()
+    public final java.lang.String component16()
+    public final java.util.List component17()
+    public final java.util.List component18()
+    public final java.lang.String component19()
+    public final java.lang.Float component20()
+    public final com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.BelongsToCollection component21()
+    public final java.lang.String component22()
+    public final java.lang.Boolean component23()
+    public final java.lang.String component24()
+    public final java.lang.String component25()
+    public final java.lang.Boolean component26()
+    public final com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity copy(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.Long,java.util.List,java.lang.Float,java.util.List,java.lang.Long,java.lang.Long,java.lang.Long,java.lang.String,java.lang.String,java.lang.Long,java.lang.String,java.util.List,java.util.List,java.lang.String,java.lang.Float,com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.BelongsToCollection,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.Boolean)
+com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.MovieResponse:
+    public void <init>(com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.Dates,java.lang.Integer,java.lang.Integer,java.util.List,java.lang.Integer)
+    public synthetic void <init>(com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.Dates,java.lang.Integer,java.lang.Integer,java.util.List,java.lang.Integer,int,kotlin.jvm.internal.DefaultConstructorMarker)
+    public static synthetic com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.MovieResponse copy$default(com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.MovieResponse,com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.Dates,java.lang.Integer,java.lang.Integer,java.util.List,java.lang.Integer,int,java.lang.Object)
+    public final com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.Dates getDates()
+    public final java.lang.Integer getPage()
+    public final java.lang.Integer getTotalPages()
+    public final java.lang.Integer getTotalResults()
+    public final com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.Dates component1()
+    public final java.lang.Integer component2()
+    public final java.lang.Integer component3()
+    public final java.util.List component4()
+    public final java.lang.Integer component5()
+    public final com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.MovieResponse copy(com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.Dates,java.lang.Integer,java.lang.Integer,java.util.List,java.lang.Integer)
+com.madfooatcom.movietestlibrary.ui.MovieMainActivity:
+    public void _$_clearFindViewByIdCache()
+com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.LastEpisodeToAir:
+    public static synthetic com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.LastEpisodeToAir copy$default(com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.LastEpisodeToAir,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Object,java.lang.Integer,int,java.lang.Object)
+    public final java.lang.String getProductionCode()
+    public final java.lang.String getAirDate()
+    public final java.lang.String getOverview()
+    public final java.lang.Integer getEpisodeNumber()
+    public final java.lang.Integer getShowId()
+    public final java.lang.Integer getVoteAverage()
+    public final java.lang.String getName()
+    public final java.lang.Integer getSeasonNumber()
+    public final java.lang.Integer getId()
+    public final java.lang.Object getStillPath()
+    public final java.lang.Integer getVoteCount()
+    public final java.lang.String component1()
+    public final java.lang.String component2()
+    public final java.lang.String component3()
+    public final java.lang.Integer component4()
+    public final java.lang.Integer component5()
+    public final java.lang.Integer component6()
+    public final java.lang.String component7()
+    public final java.lang.Integer component8()
+    public final java.lang.Integer component9()
+    public final java.lang.Object component10()
+    public final java.lang.Integer component11()
+    public final com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.LastEpisodeToAir copy(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Object,java.lang.Integer)
+com.madfooatcom.movietestlibrary.DataBindingInfo
+com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.ProductionCompaniesItem
+com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTVShowActivity:
+    public void _$_clearFindViewByIdCache()
+com.madfooatcom.movietestlibrary.ui.adapter.TvShowFavoriteAdapter$ViewHolder:
+    public final com.madfooatcom.movietestlibrary.databinding.ItemFavoriteTvShowBinding getView()
+    public final void setView(com.madfooatcom.movietestlibrary.databinding.ItemFavoriteTvShowBinding)
+com.madfooatcom.movietestlibrary.data.local.entity.TvShowEntity:
+    public synthetic void <init>(java.lang.String,java.lang.String,java.lang.String,java.util.List,java.lang.String,java.util.List,java.lang.String,java.lang.String,java.lang.Double,java.lang.Float,java.lang.String,java.lang.Long,java.lang.Long,int,kotlin.jvm.internal.DefaultConstructorMarker)
+    public static synthetic com.madfooatcom.movietestlibrary.data.local.entity.TvShowEntity copy$default(com.madfooatcom.movietestlibrary.data.local.entity.TvShowEntity,java.lang.String,java.lang.String,java.lang.String,java.util.List,java.lang.String,java.util.List,java.lang.String,java.lang.String,java.lang.Double,java.lang.Float,java.lang.String,java.lang.Long,java.lang.Long,int,java.lang.Object)
+    public final java.lang.String component1()
+    public final java.lang.String component2()
+    public final java.lang.String component3()
+    public final java.util.List component4()
+    public final java.lang.String component5()
+    public final java.util.List component6()
+    public final java.lang.String component7()
+    public final java.lang.String component8()
+    public final java.lang.Double component9()
+    public final java.lang.Float component10()
+    public final java.lang.String component11()
+    public final java.lang.Long component12()
+    public final java.lang.Long component13()
+    public final com.madfooatcom.movietestlibrary.data.local.entity.TvShowEntity copy(java.lang.String,java.lang.String,java.lang.String,java.util.List,java.lang.String,java.util.List,java.lang.String,java.lang.String,java.lang.Double,java.lang.Float,java.lang.String,java.lang.Long,java.lang.Long)
+com.madfooatcom.movietestlibrary.utils.LocalData$typeMovieDetail$1
+com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.CreatedByItem
+com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity:
+    public static synthetic com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity copy$default(com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity,java.lang.String,java.lang.Integer,java.util.List,java.lang.String,java.lang.String,java.util.List,java.lang.Float,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.util.List,java.util.List,java.util.List,com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.LastEpisodeToAir,java.lang.String,java.util.List,java.util.List,java.lang.String,java.lang.Float,java.lang.String,java.util.List,com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.NextEpisodeToAir,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,int,java.lang.Object)
+    public final java.util.List getNetworks()
+    public final void setNetworks(java.util.List)
+    public final java.util.List getSeasons()
+    public final void setSeasons(java.util.List)
+    public final java.util.List getLanguages()
+    public final void setLanguages(java.util.List)
+    public final java.util.List getCreatedBy()
+    public final void setCreatedBy(java.util.List)
+    public final com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.LastEpisodeToAir getLastEpisodeToAir()
+    public final void setLastEpisodeToAir(com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.LastEpisodeToAir)
+    public final java.util.List getOriginCountry()
+    public final void setOriginCountry(java.util.List)
+    public final java.util.List getProductionCompanies()
+    public final void setProductionCompanies(java.util.List)
+    public final java.util.List getEpisodeRunTime()
+    public final void setEpisodeRunTime(java.util.List)
+    public final com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.NextEpisodeToAir getNextEpisodeToAir()
+    public final void setNextEpisodeToAir(com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.NextEpisodeToAir)
+    public final java.lang.String component1()
+    public final java.lang.Integer component2()
+    public final java.util.List component3()
+    public final java.lang.String component4()
+    public final java.lang.String component5()
+    public final java.util.List component6()
+    public final java.lang.Float component7()
+    public final java.lang.Integer component8()
+    public final java.lang.Integer component9()
+    public final java.lang.Integer component10()
+    public final java.lang.String component11()
+    public final java.lang.String component12()
+    public final java.util.List component13()
+    public final java.util.List component14()
+    public final java.util.List component15()
+    public final com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.LastEpisodeToAir component16()
+    public final java.lang.String component17()
+    public final java.util.List component18()
+    public final java.util.List component19()
+    public final java.lang.String component20()
+    public final java.lang.Float component21()
+    public final java.lang.String component22()
+    public final java.util.List component23()
+    public final com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.NextEpisodeToAir component24()
+    public final java.lang.Boolean component25()
+    public final java.lang.String component26()
+    public final java.lang.String component27()
+    public final java.lang.String component28()
+    public final java.lang.Boolean component29()
+    public final com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity copy(java.lang.String,java.lang.Integer,java.util.List,java.lang.String,java.lang.String,java.util.List,java.lang.Float,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.util.List,java.util.List,java.util.List,com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.LastEpisodeToAir,java.lang.String,java.util.List,java.util.List,java.lang.String,java.lang.Float,java.lang.String,java.util.List,com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.NextEpisodeToAir,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+com.madfooatcom.movietestlibrary.DataBinderMapperImpl$InnerLayoutIdLookup:
+    private void <init>()
+com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieActivity:
+    public void _$_clearFindViewByIdCache()
+com.madfooatcom.movietestlibrary.utils.Converter:
+    public void <init>()
+com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.ProductionCountriesItem
+com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.GenresItem:
+    public static synthetic com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.GenresItem copy$default(com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.GenresItem,java.lang.String,java.lang.Long,int,java.lang.Object)
+    public final void setName(java.lang.String)
+    public final java.lang.Long getId()
+    public final void setId(java.lang.Long)
+    public final java.lang.String component1()
+    public final java.lang.Long component2()
+    public final com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.GenresItem copy(java.lang.String,java.lang.Long)
+com.madfooatcom.movietestlibrary.data.local.source.LocalDataSourceImpl$getTvShowData$1:
+    public final boolean test(java.util.List)
+com.madfooatcom.movietestlibrary.ui.feature.favorite.tvshow.TvShowFavoriteFragment:
+    public static final synthetic void access$observeSuccess(com.madfooatcom.movietestlibrary.ui.feature.favorite.tvshow.TvShowFavoriteFragment,androidx.paging.PagedList)
+    public void _$_clearFindViewByIdCache()
+    public final com.madfooatcom.movietestlibrary.ui.feature.favorite.tvshow.TvShowFavoriteViewModel getViewModel()
+    public final void observeDataChange()
+    public final void observeSuccess(androidx.paging.PagedList)
+    public final void observeError(java.lang.Throwable)
+com.madfooatcom.movietestlibrary.domain.SchedulerProviders$Companion:
+    public final com.madfooatcom.movietestlibrary.domain.SchedulerProviders getDEFAULT()
+    public static final com.madfooatcom.movietestlibrary.domain.SchedulerProviders TEST_SCHEDULER
+com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieActivity$observeDataChange$1:
+    public final void onChanged(com.madfooatcom.movietestlibrary.common.ViewState)
+com.madfooatcom.movietestlibrary.ui.feature.tvshow.TvShowViewModel$getTvShow$3:
+    public final void accept(java.lang.Throwable)
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$14:
+    public java.util.List call()
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$1:
+    public void bind(androidx.sqlite.db.SupportSQLiteStatement,com.madfooatcom.movietestlibrary.data.local.entity.MovieEntity)
+    public final synthetic com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl this$0
+com.madfooatcom.movietestlibrary.ui.feature.favorite.movie.MovieFavoriteFragment$WhenMappings
+com.madfooatcom.movietestlibrary.ui.feature.favorite.movie.MovieFavoriteViewModel:
+    public static final synthetic void access$onLoading(com.madfooatcom.movietestlibrary.ui.feature.favorite.movie.MovieFavoriteViewModel)
+    public static final synthetic void access$onSuccess(com.madfooatcom.movietestlibrary.ui.feature.favorite.movie.MovieFavoriteViewModel,androidx.paging.PagedList)
+    public static final synthetic void access$onError(com.madfooatcom.movietestlibrary.ui.feature.favorite.movie.MovieFavoriteViewModel,java.lang.Throwable)
+    public final androidx.lifecycle.MutableLiveData getMovieDetailState()
+    public final void getAllFavoriteMovie(boolean)
+    public final void onLoading()
+    public final void onSuccess(androidx.paging.PagedList)
+    public final void onError(java.lang.Throwable)
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$14:
+    public final com.madfooatcom.movietestlibrary.data.repository.TvShowRepositoryImpl invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.ui.adapter.MovieFavoriteAdapter$Companion$DIFF_CALBACK$1:
+    public boolean areItemsTheSame(com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity,com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
+    public boolean areContentsTheSame(com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity,com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$9:
+    public java.lang.Void call()
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$6:
+    public final com.madfooatcom.movietestlibrary.ui.feature.favorite.tvshow.TvShowFavoriteViewModel invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.ui.feature.favorite.tvshow.TvShowFavoriteFragment$observeDataChange$1:
+    public final void onChanged(com.madfooatcom.movietestlibrary.common.ViewState)
+com.madfooatcom.movietestlibrary.ui.feature.movie.MovieViewModel:
+    public static final synthetic void access$onLoading(com.madfooatcom.movietestlibrary.ui.feature.movie.MovieViewModel)
+    public static final synthetic void access$onSuccess(com.madfooatcom.movietestlibrary.ui.feature.movie.MovieViewModel,java.util.List)
+    public static final synthetic void access$onError(com.madfooatcom.movietestlibrary.ui.feature.movie.MovieViewModel,java.lang.Throwable)
+    public final androidx.lifecycle.MutableLiveData getMovieListState()
+    public final void getMovies(java.lang.String)
+    public final void onSuccess(java.util.List)
+    public final void onError(java.lang.Throwable)
+    public final void onLoading()
+com.madfooatcom.movietestlibrary.utils.EkstentionsKt
+com.madfooatcom.movietestlibrary.data.local.source.LocalDataSourceImpl:
+    public io.reactivex.Completable saveMovieData(java.util.List)
+    public io.reactivex.Completable saveTvShowData(java.util.List)
+    public io.reactivex.Completable saveMovieDetail(com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
+    public io.reactivex.Completable saveTvShowDetail(com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity)
+    public io.reactivex.Observable getAllMovieData()
+    public io.reactivex.Observable getTvShowData()
+    public io.reactivex.Observable getMovieDetail(java.lang.String)
+    public io.reactivex.Observable getTvShowDetail(java.lang.String)
+    public io.reactivex.Single updateMovieDetail(boolean,com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
+    public io.reactivex.Single updateTvShowDetail(boolean,com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity)
+    public androidx.paging.DataSource$Factory getAllFavoriteMovie(boolean)
+    public androidx.paging.DataSource$Factory getAllFavoriteTvShow(boolean)
+com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTVShowActivity$$special$$inlined$viewModel$1:
+    public final androidx.lifecycle.ViewModel invoke()
+com.madfooatcom.movietestlibrary.ui.adapter.MovieFavoriteAdapter$Companion
+com.madfooatcom.movietestlibrary.ui.feature.favorite.tvshow.TvShowFavoriteFragment$WhenMappings
+com.madfooatcom.movietestlibrary.data.local.entity.MovieEntity:
+    public final java.lang.String getOverview()
+    public final java.lang.String getOriginalLanguage()
+    public final java.lang.String getOriginalTitle()
+    public final java.lang.Boolean getVideo()
+    public final java.lang.String getTitle()
+    public final java.util.List getGenreIds()
+    public final java.lang.String getPosterPath()
+    public final java.lang.String getBackdropPath()
+    public final java.lang.String getReleaseDate()
+    public final java.lang.Double getPopularity()
+    public final java.lang.Float getVoteAverage()
+    public final java.lang.Long getId()
+    public final java.lang.Boolean getAdult()
+    public final java.lang.Long getVoteCount()
+com.madfooatcom.movietestlibrary.BR
+com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTvShowViewModel:
+    public static final synthetic void access$onLoading(com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTvShowViewModel)
+    public static final synthetic void access$onSuccess(com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTvShowViewModel,com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity)
+    public static final synthetic void access$onError(com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTvShowViewModel,java.lang.Throwable)
+    public static final synthetic void access$onFavoriteSuccess(com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTvShowViewModel,int)
+    public static final synthetic void access$onFavoriteError(com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTvShowViewModel,java.lang.Throwable)
+    public final androidx.lifecycle.MutableLiveData getTvDetailState()
+    public final androidx.lifecycle.MutableLiveData getFavoriteState()
+    public final void getTvShowDetail(java.lang.String,java.lang.String)
+    public final void updateTvShowDetail(boolean,com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity)
+    public final void onFavoriteSuccess(int)
+    public final void onFavoriteError(java.lang.Throwable)
+    public final void onLoading()
+    public final void onError(java.lang.Throwable)
+    public final void onSuccess(com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity)
+com.madfooatcom.movietestlibrary.ui.adapter.MovieAdapter$ViewHolder:
+    public final void bind(com.madfooatcom.movietestlibrary.data.local.entity.MovieEntity)
+    public final synthetic com.madfooatcom.movietestlibrary.ui.adapter.MovieAdapter this$0
+com.madfooatcom.movietestlibrary.ui.feature.tvshow.TvShowViewModel:
+    public static final synthetic void access$onLoading(com.madfooatcom.movietestlibrary.ui.feature.tvshow.TvShowViewModel)
+    public static final synthetic void access$onSuccess(com.madfooatcom.movietestlibrary.ui.feature.tvshow.TvShowViewModel,java.util.List)
+    public static final synthetic void access$onError(com.madfooatcom.movietestlibrary.ui.feature.tvshow.TvShowViewModel,java.lang.Throwable)
+    public final androidx.lifecycle.MutableLiveData getTvShowListState()
+    public final void getTvShow(java.lang.String)
+    public final void onLoading()
+    public final void onSuccess(java.util.List)
+    public final void onError(java.lang.Throwable)
+com.madfooatcom.movietestlibrary.utils.Converter$Companion:
+    public synthetic void <init>(kotlin.jvm.internal.DefaultConstructorMarker)
+    public final java.util.List fromStringToList(java.lang.String)
+    public final java.lang.String listToString(java.util.List)
+com.madfooatcom.movietestlibrary.ui.adapter.TvShowFavoriteAdapter:
+    public com.madfooatcom.movietestlibrary.ui.adapter.TvShowFavoriteAdapter$ViewHolder onCreateViewHolder(android.view.ViewGroup)
+    public void onBindViewHolder(com.madfooatcom.movietestlibrary.ui.adapter.TvShowFavoriteAdapter$ViewHolder,int)
+    public static final com.madfooatcom.movietestlibrary.ui.adapter.TvShowFavoriteAdapter$Companion Companion
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$15:
+    public final com.madfooatcom.movietestlibrary.data.local.source.LocalDataSourceImpl invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$8:
+    public java.lang.Void call()
+com.madfooatcom.movietestlibrary.ui.adapter.TvShowAdapter$ViewHolder:
+    public final void bind(com.madfooatcom.movietestlibrary.data.local.entity.TvShowEntity)
+    public final synthetic com.madfooatcom.movietestlibrary.ui.adapter.TvShowAdapter this$0
+com.madfooatcom.movietestlibrary.common.ViewState$Companion:
+    public synthetic void <init>(kotlin.jvm.internal.DefaultConstructorMarker)
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$5:
+    public final com.madfooatcom.movietestlibrary.ui.feature.favorite.movie.MovieFavoriteViewModel invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.ui.feature.tvshow.TvShowViewModel$getTvShow$2:
+    public final void accept(java.util.List)
+com.madfooatcom.movietestlibrary.ui.adapter.TvShowAdapter:
+    public final void setTvShows(java.util.List)
+    public com.madfooatcom.movietestlibrary.ui.adapter.TvShowAdapter$ViewHolder onCreateViewHolder(android.view.ViewGroup)
+    public void onBindViewHolder(com.madfooatcom.movietestlibrary.ui.adapter.TvShowAdapter$ViewHolder,int)
+com.madfooatcom.movietestlibrary.ui.feature.movie.MovieViewModel$getMovies$3:
+    public final void accept(java.lang.Throwable)
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$15:
+    public com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity call()
+com.madfooatcom.movietestlibrary.data.remote.source.RemoteDataSourceImpl:
+    public static final synthetic com.madfooatcom.movietestlibrary.data.local.source.LocalDataSourceImpl access$getLocalImpl$p(com.madfooatcom.movietestlibrary.data.remote.source.RemoteDataSourceImpl)
+    public io.reactivex.Observable getMovieDataFromApi(java.lang.String)
+    public io.reactivex.Observable getMovieDataDetailFromApi(java.lang.String,java.lang.String)
+    public io.reactivex.Observable getTvShowDataFromAPI(java.lang.String)
+    public io.reactivex.Observable getTvShowDataDetailFromApi(java.lang.String,java.lang.String)
+com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieActivity$$special$$inlined$viewModel$1:
+    public final androidx.lifecycle.ViewModel invoke()
+com.madfooatcom.movietestlibrary.ui.feature.movie.MovieFragment:
+    public static final synthetic void access$observeMovies(com.madfooatcom.movietestlibrary.ui.feature.movie.MovieFragment,java.util.List)
+    public void _$_clearFindViewByIdCache()
+    public final com.madfooatcom.movietestlibrary.ui.feature.movie.MovieViewModel getViewModel()
+    public final void observeDataChange()
+    public final void observeError(java.lang.Throwable)
+    public final void observeMovies(java.util.List)
+com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTVShowActivity$observeDataChange$1:
+    public final void onChanged(com.madfooatcom.movietestlibrary.common.ViewState)
+com.madfooatcom.movietestlibrary.data.remote.source.RemoteDataSourceImpl$getTvShowDataFromAPI$1:
+    public final java.util.List apply(com.madfooatcom.movietestlibrary.data.remote.response.tvshow.poular.TvShowResponse)
+com.madfooatcom.movietestlibrary.domain.SchedulerProviders$Companion$TEST_SCHEDULER$1:
+    public void <init>()
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$20:
+    public final com.madfooatcom.movietestlibrary.data.remote.ApiService invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.BelongsToCollection:
+    public void <init>(java.lang.String,java.lang.String,java.lang.Long,java.lang.String)
+    public synthetic void <init>(java.lang.String,java.lang.String,java.lang.Long,java.lang.String,int)
+    public void <init>()
+    public java.lang.String toString()
+    public boolean equals(java.lang.Object)
+    public java.lang.String backdropPath
+    public java.lang.String name
+    public java.lang.Long id
+    public java.lang.String posterPath
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$12:
+    public java.lang.Integer call()
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$16:
+    public final com.madfooatcom.movietestlibrary.data.remote.source.RemoteDataSourceImpl invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTvShowViewModel$getTvShowDetail$3:
+    public final void accept(java.lang.Throwable)
+com.madfooatcom.movietestlibrary.ui.feature.movie.MovieFragment$observeDataChange$1:
+    public final void onChanged(com.madfooatcom.movietestlibrary.common.ViewState)
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$4:
+    public final com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieViewModel invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.ui.feature.tvshow.TvShowViewModel$getTvShow$1:
+    public final void accept()
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$3:
+    public void bind(androidx.sqlite.db.SupportSQLiteStatement,com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
+    public final synthetic com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl this$0
+com.madfooatcom.movietestlibrary.data.remote.response.tvshow.poular.TvShowResponse:
+    public final java.util.List getResults()
+com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieViewModel:
+    public static final synthetic void access$onLoading(com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieViewModel)
+    public static final synthetic void access$onSuccess(com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieViewModel,com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
+    public static final synthetic void access$onError(com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieViewModel,java.lang.Throwable)
+    public static final synthetic void access$onFavoriteSuccess(com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieViewModel,int)
+    public static final synthetic void access$onFavoriteError(com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieViewModel,java.lang.Throwable)
+    public final androidx.lifecycle.MutableLiveData getMovieDetailState()
+    public final androidx.lifecycle.MutableLiveData getFavoriteState()
+    public final void getMoviesDetail(java.lang.String,java.lang.String)
+    public final void updateMovieDetail(boolean,com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
+    public final void onFavoriteSuccess(int)
+    public final void onFavoriteError(java.lang.Throwable)
+    public final void onSuccess(com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
+    public final void onError(java.lang.Throwable)
+    public final void onLoading()
+com.madfooatcom.movietestlibrary.data.local.source.LocalDataSourceImpl$getMovieDetail$1:
+    public final boolean test(com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
+androidx.databinding.library.baseAdapters.BR:
+    public static void <clinit>()
+com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.Dates
+com.madfooatcom.movietestlibrary.data.repository.MovieRepositoryImpl:
+    public io.reactivex.Observable getMovieData(java.lang.String)
+    public io.reactivex.Observable getMovieDataDetail(java.lang.String,java.lang.String)
+    public io.reactivex.Single updateMovieDetail(boolean,com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
+    public io.reactivex.Observable getAllFavoriteMovie(boolean)
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$21:
+    public final com.madfooatcom.movietestlibrary.data.local.TMDBdb invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.ui.feature.favorite.movie.MovieFavoriteFragment$observeDataChange$1:
+    public final void onChanged(com.madfooatcom.movietestlibrary.common.ViewState)
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$13:
+    public java.util.List call()
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$2:
+    public void bind(androidx.sqlite.db.SupportSQLiteStatement,com.madfooatcom.movietestlibrary.data.local.entity.TvShowEntity)
+    public final synthetic com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl this$0
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$3:
+    public final com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTvShowViewModel invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$17:
+    public final com.madfooatcom.movietestlibrary.common.ViewState$Companion invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.NextEpisodeToAir:
+    public void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Object,java.lang.Integer)
+    public synthetic void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Object,java.lang.Integer,int)
+    public void <init>()
+    public java.lang.String toString()
+    public boolean equals(java.lang.Object)
+    public final java.lang.String productionCode
+    public final java.lang.String airDate
+    public final java.lang.String overview
+    public final java.lang.Integer episodeNumber
+    public final java.lang.Integer showId
+    public final java.lang.Integer voteAverage
+    public final java.lang.String name
+    public final java.lang.Integer seasonNumber
+    public final java.lang.Integer id
+    public final java.lang.Object stillPath
+    public final java.lang.Integer voteCount
+com.madfooatcom.movietestlibrary.common.ViewState:
+    public final java.lang.Object getData()
+    public final java.lang.Throwable getErr()
+    public final com.madfooatcom.movietestlibrary.common.ViewState$State getCurrentState()
+com.madfooatcom.movietestlibrary.ui.feature.favorite.movie.MovieFavoriteViewModel$getAllFavoriteMovie$1:
+    public final void accept()
+com.madfooatcom.movietestlibrary.di.ModuleKt:
+    public static final org.koin.core.module.Module getAppModule()
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$22:
+    public final com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.ui.adapter.TvShowFavoriteAdapter$Companion
+com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieViewModel$getMoviesDetail$3:
+    public final void accept(java.lang.Throwable)
+com.madfooatcom.movietestlibrary.common.ViewState$State:
+    public java.lang.Integer value
+com.madfooatcom.movietestlibrary.MovieInitializer$init$1:
+    public final void invoke(org.koin.core.KoinApplication)
+com.madfooatcom.movietestlibrary.ui.adapter.MovieFavoriteAdapter$ViewHolder:
+    public final void bind(com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
+    public final synthetic com.madfooatcom.movietestlibrary.ui.adapter.MovieFavoriteAdapter this$0
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$18:
+    public final okhttp3.OkHttpClient invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$2:
+    public final com.madfooatcom.movietestlibrary.ui.feature.tvshow.TvShowViewModel invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity:
+    public final java.lang.String getOriginalLanguage()
+    public final void setOriginalLanguage(java.lang.String)
+    public final java.lang.String getImdbId()
+    public final void setImdbId(java.lang.String)
+    public final java.lang.Boolean getVideo()
+    public final void setVideo(java.lang.Boolean)
+    public final java.lang.String getTitle()
+    public final void setTitle(java.lang.String)
+    public final java.lang.String getBackdropPath()
+    public final void setBackdropPath(java.lang.String)
+    public final java.lang.Long getRevenue()
+    public final void setRevenue(java.lang.Long)
+    public final java.util.List getGenres()
+    public final void setGenres(java.util.List)
+    public final java.lang.Float getPopularity()
+    public final void setPopularity(java.lang.Float)
+    public final java.lang.Long getId()
+    public final void setId(java.lang.Long)
+    public final java.lang.Long getVoteCount()
+    public final void setVoteCount(java.lang.Long)
+    public final java.lang.Long getBudget()
+    public final void setBudget(java.lang.Long)
+    public final java.lang.String getOverview()
+    public final void setOverview(java.lang.String)
+    public final java.lang.String getOriginalTitle()
+    public final void setOriginalTitle(java.lang.String)
+    public final java.lang.Long getRuntime()
+    public final void setRuntime(java.lang.Long)
+    public final java.lang.String getPosterPath()
+    public final void setPosterPath(java.lang.String)
+    public final java.lang.String getReleaseDate()
+    public final void setReleaseDate(java.lang.String)
+    public final java.lang.Float getVoteAverage()
+    public final void setVoteAverage(java.lang.Float)
+    public final java.lang.String getTagline()
+    public final void setTagline(java.lang.String)
+    public final java.lang.Boolean getAdult()
+    public final void setAdult(java.lang.Boolean)
+    public final java.lang.String getHomepage()
+    public final void setHomepage(java.lang.String)
+    public final java.lang.String getStatus()
+    public final void setStatus(java.lang.String)
+    public final java.lang.Boolean isFavorite()
+    public final void setFavorite(java.lang.Boolean)
+com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieViewModel$updateMovieDetail$1:
+    public final void accept(java.lang.Integer)
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$10:
+    public java.lang.Void call()
+com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.MovieResponse:
+    public final java.util.List getResults()
+    public final com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.Dates dates
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$10:
+    public final com.madfooatcom.movietestlibrary.ui.feature.favorite.movie.MovieFavoriteFragment invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$5:
+    public void bind(androidx.sqlite.db.SupportSQLiteStatement,com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
+    public final synthetic com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl this$0
+com.madfooatcom.movietestlibrary.ui.MovieMainActivity:
+    public final com.madfooatcom.movietestlibrary.ui.feature.movie.MovieFragment getMovieFragment()
+    public final com.madfooatcom.movietestlibrary.ui.feature.tvshow.TVShowFragment getTvShowFragment()
+    public final com.madfooatcom.movietestlibrary.ui.feature.favorite.FavoriteFragment getFavoriteFragment()
+com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTvShowViewModel$getTvShowDetail$1:
+    public final void accept()
+com.madfooatcom.movietestlibrary.data.remote.response.tvshow.detail.LastEpisodeToAir:
+    public void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Object,java.lang.Integer)
+    public synthetic void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Object,java.lang.Integer,int)
+    public void <init>()
+    public java.lang.String toString()
+    public boolean equals(java.lang.Object)
+    public final java.lang.String productionCode
+    public final java.lang.String airDate
+    public final java.lang.String overview
+    public final java.lang.Integer episodeNumber
+    public final java.lang.Integer showId
+    public final java.lang.Integer voteAverage
+    public final java.lang.String name
+    public final java.lang.Integer seasonNumber
+    public final java.lang.Integer id
+    public final java.lang.Object stillPath
+    public final java.lang.Integer voteCount
+com.madfooatcom.movietestlibrary.ui.feature.favorite.movie.MovieFavoriteViewModel$getAllFavoriteMovie$2:
+    public final void accept(androidx.paging.PagedList)
+com.madfooatcom.movietestlibrary.data.remote.source.RemoteDataSourceImpl$getMovieDataFromApi$1:
+    public final java.util.List apply(com.madfooatcom.movietestlibrary.data.remote.response.movie.nowplaying.MovieResponse)
+com.madfooatcom.movietestlibrary.ui.feature.favorite.tvshow.TvShowFavoriteViewModel$getAllFavoriteTvShow$1:
+    public final void accept()
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$18:
+    public androidx.room.paging.LimitOffsetDataSource create()
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl:
+    public static synthetic androidx.room.RoomDatabase access$000(com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl)
+    public static synthetic androidx.room.EntityInsertionAdapter access$100(com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl)
+    public static synthetic androidx.room.EntityInsertionAdapter access$200(com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl)
+    public static synthetic androidx.room.EntityInsertionAdapter access$300(com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl)
+    public static synthetic androidx.room.EntityInsertionAdapter access$400(com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl)
+    public static synthetic androidx.room.EntityDeletionOrUpdateAdapter access$500(com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl)
+    public static synthetic androidx.room.EntityDeletionOrUpdateAdapter access$600(com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl)
+com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTVShowActivity$WhenMappings
+com.madfooatcom.movietestlibrary.ui.adapter.MovieAdapter:
+    public final void setMovies(java.util.List)
+    public com.madfooatcom.movietestlibrary.ui.adapter.MovieAdapter$ViewHolder onCreateViewHolder(android.view.ViewGroup)
+    public void onBindViewHolder(com.madfooatcom.movietestlibrary.ui.adapter.MovieAdapter$ViewHolder,int)
+com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTVShowActivity:
+    public static final synthetic void access$observeTvShowDetail(com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTVShowActivity,com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity)
+    public final void onFavoriteClick(boolean,com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity)
+    public final void observeDataChange()
+    public final void observeError(java.lang.Throwable)
+    public final void observeTvShowDetail(com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity)
+    public final void observeDataFavoriteChange(boolean)
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$18$1:
+    public final synthetic com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$18 this$1
+com.madfooatcom.movietestlibrary.ui.adapter.TvShowFavoriteAdapter$ViewHolder:
+    public final void bind(com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity)
+    public final synthetic com.madfooatcom.movietestlibrary.ui.adapter.TvShowFavoriteAdapter this$0
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$19:
+    public final retrofit2.Retrofit invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$11:
+    public java.lang.Integer call()
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$1:
+    public final com.madfooatcom.movietestlibrary.ui.feature.movie.MovieViewModel invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$11:
+    public final com.madfooatcom.movietestlibrary.ui.feature.favorite.tvshow.TvShowFavoriteFragment invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$9:
+    public final com.madfooatcom.movietestlibrary.ui.feature.favorite.FavoriteFragment invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieViewModel$updateMovieDetail$2:
+    public final void accept(java.lang.Throwable)
+com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTvShowViewModel$getTvShowDetail$2:
+    public final void accept(com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity)
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$4:
+    public void bind(androidx.sqlite.db.SupportSQLiteStatement,com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity)
+    public final synthetic com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl this$0
+com.madfooatcom.movietestlibrary.data.local.entity.TvShowEntity:
+    public final java.lang.String getFirstAirDate()
+    public final java.lang.String getOverview()
+    public final java.lang.String getOriginalLanguage()
+    public final java.util.List getGenreIds()
+    public final java.lang.String getPosterPath()
+    public final java.util.List getOriginCountry()
+    public final java.lang.String getBackdropPath()
+    public final java.lang.String getOriginalName()
+    public final java.lang.Double getPopularity()
+    public final java.lang.Float getVoteAverage()
+    public final java.lang.String getName()
+    public final java.lang.Long getId()
+    public final java.lang.Long getVoteCount()
+com.madfooatcom.movietestlibrary.ui.feature.favorite.movie.MovieFavoriteViewModel$getAllFavoriteMovie$3:
+    public final void accept(java.lang.Throwable)
+com.madfooatcom.movietestlibrary.ui.feature.tvshow.TVShowFragment$WhenMappings
+com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTvShowViewModel$updateTvShowDetail$1:
+    public final void accept(java.lang.Integer)
+com.madfooatcom.movietestlibrary.base.BaseViewModel:
+    public final io.reactivex.disposables.CompositeDisposable getCompositeDisposable()
+com.madfooatcom.movietestlibrary.ui.feature.movie.MovieFragment$WhenMappings
+com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieActivity$WhenMappings
+com.madfooatcom.movietestlibrary.ui.adapter.MovieFavoriteAdapter:
+    public com.madfooatcom.movietestlibrary.ui.adapter.MovieFavoriteAdapter$ViewHolder onCreateViewHolder(android.view.ViewGroup)
+    public void onBindViewHolder(com.madfooatcom.movietestlibrary.ui.adapter.MovieFavoriteAdapter$ViewHolder,int)
+    public static final com.madfooatcom.movietestlibrary.ui.adapter.MovieFavoriteAdapter$Companion Companion
+com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTVShowActivity$observeDataFavoriteChange$1:
+    public final void onChanged(com.madfooatcom.movietestlibrary.common.ViewState)
+com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity:
+    public final java.lang.String getOriginalLanguage()
+    public final void setOriginalLanguage(java.lang.String)
+    public final java.lang.Integer getNumberOfEpisodes()
+    public final void setNumberOfEpisodes(java.lang.Integer)
+    public final java.lang.String getType()
+    public final void setType(java.lang.String)
+    public final java.lang.String getBackdropPath()
+    public final void setBackdropPath(java.lang.String)
+    public final java.util.List getGenres()
+    public final void setGenres(java.util.List)
+    public final java.lang.Float getPopularity()
+    public final void setPopularity(java.lang.Float)
+    public final java.lang.Integer getId()
+    public final void setId(java.lang.Integer)
+    public final java.lang.Integer getNumberOfSeasons()
+    public final void setNumberOfSeasons(java.lang.Integer)
+    public final java.lang.Integer getVoteCount()
+    public final void setVoteCount(java.lang.Integer)
+    public final java.lang.String getFirstAirDate()
+    public final void setFirstAirDate(java.lang.String)
+    public final java.lang.String getOverview()
+    public final void setOverview(java.lang.String)
+    public final java.lang.String getPosterPath()
+    public final void setPosterPath(java.lang.String)
+    public final java.lang.String getOriginalName()
+    public final void setOriginalName(java.lang.String)
+    public final java.lang.Float getVoteAverage()
+    public final void setVoteAverage(java.lang.Float)
+    public final java.lang.String getName()
+    public final void setName(java.lang.String)
+    public final java.lang.Boolean getInProduction()
+    public final void setInProduction(java.lang.Boolean)
+    public final java.lang.String getLastAirDate()
+    public final void setLastAirDate(java.lang.String)
+    public final java.lang.String getHomepage()
+    public final void setHomepage(java.lang.String)
+    public final java.lang.String getStatus()
+    public final void setStatus(java.lang.String)
+    public final java.lang.Boolean isFavorite()
+    public final void setFavorite(java.lang.Boolean)
+com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieViewModel$getMoviesDetail$1:
+    public final void accept()
+com.madfooatcom.movietestlibrary.ui.feature.favorite.movie.MovieFavoriteFragment:
+    public static final synthetic void access$observeSuccess(com.madfooatcom.movietestlibrary.ui.feature.favorite.movie.MovieFavoriteFragment,androidx.paging.PagedList)
+    public void _$_clearFindViewByIdCache()
+    public final com.madfooatcom.movietestlibrary.ui.feature.favorite.movie.MovieFavoriteViewModel getViewModel()
+    public final void observeDataChange()
+    public final void observeSuccess(androidx.paging.PagedList)
+    public final void observeError(java.lang.Throwable)
+com.madfooatcom.movietestlibrary.ui.feature.favorite.FavoriteFragment:
+    public final com.madfooatcom.movietestlibrary.ui.feature.favorite.movie.MovieFavoriteFragment getMovieFavorite()
+    public final com.madfooatcom.movietestlibrary.ui.feature.favorite.tvshow.TvShowFavoriteFragment getTvShowFavorite()
+    public void _$_clearFindViewByIdCache()
+com.madfooatcom.movietestlibrary.ui.adapter.TvShowFavoriteAdapter$Companion$DIFF_CALBACK$1:
+    public boolean areItemsTheSame(com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity,com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity)
+    public boolean areContentsTheSame(com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity,com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity)
+com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieActivity:
+    public static final synthetic void access$observeMoviesDetail(com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieActivity,com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
+    public final void onFavoriteClick(boolean,com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
+    public final void observeDataChange()
+    public final void observeError(java.lang.Throwable)
+    public final void observeMoviesDetail(com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
+    public final void observeDataFavoriteChange(boolean)
+com.madfooatcom.movietestlibrary.ui.feature.tvshow.TVShowFragment:
+    public static final synthetic void access$observeTvShows(com.madfooatcom.movietestlibrary.ui.feature.tvshow.TVShowFragment,java.util.List)
+    public void _$_clearFindViewByIdCache()
+    public final com.madfooatcom.movietestlibrary.ui.feature.tvshow.TvShowViewModel getViewModel()
+    public final void observeDataChange()
+    public final void observeError(java.lang.Throwable)
+    public final void observeTvShows(java.util.List)
+com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTvShowViewModel$updateTvShowDetail$2:
+    public final void accept(java.lang.Throwable)
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$12:
+    public final com.madfooatcom.movietestlibrary.domain.SchedulerProviders invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$8:
+    public final com.madfooatcom.movietestlibrary.ui.feature.tvshow.TVShowFragment invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$7:
+    public java.lang.Void call()
+com.madfooatcom.movietestlibrary.utils.BindingAdapterKt:
+    public static final java.lang.String convertRuntime(java.lang.String)
+com.madfooatcom.movietestlibrary.data.repository.TvShowRepositoryImpl:
+    public io.reactivex.Observable getTvShowData(java.lang.String)
+    public io.reactivex.Observable getTvShowDetail(java.lang.String,java.lang.String)
+    public io.reactivex.Single updateTvShowDetail(boolean,com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity)
+    public io.reactivex.Observable getAllFavoriteTvShow(boolean)
+com.madfooatcom.movietestlibrary.ui.feature.favorite.tvshow.TvShowFavoriteViewModel$getAllFavoriteTvShow$3:
+    public final void accept(java.lang.Throwable)
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$16:
+    public com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity call()
+com.madfooatcom.movietestlibrary.ui.feature.movie.MovieViewModel$getMovies$2:
+    public final void accept(java.util.List)
+com.madfooatcom.movietestlibrary.data.local.source.LocalDataSourceImpl$getAllMovieData$1:
+    public final boolean test(java.util.List)
+com.madfooatcom.movietestlibrary.data.remote.source.RemoteDataSourceImpl$getMovieDataDetailFromApi$1:
+    public final com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity apply(com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
+com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieViewModel$getMoviesDetail$2:
+    public final void accept(com.madfooatcom.movietestlibrary.data.local.entity.MovieDetailEntity)
+com.madfooatcom.movietestlibrary.ui.feature.favorite.tvshow.TvShowFavoriteViewModel:
+    public static final synthetic void access$onLoading(com.madfooatcom.movietestlibrary.ui.feature.favorite.tvshow.TvShowFavoriteViewModel)
+    public static final synthetic void access$onSucces(com.madfooatcom.movietestlibrary.ui.feature.favorite.tvshow.TvShowFavoriteViewModel,androidx.paging.PagedList)
+    public static final synthetic void access$onError(com.madfooatcom.movietestlibrary.ui.feature.favorite.tvshow.TvShowFavoriteViewModel,java.lang.Throwable)
+    public final androidx.lifecycle.MutableLiveData getTvShowDetailState()
+    public final void getAllFavoriteTvShow(boolean)
+    public final void onSucces(androidx.paging.PagedList)
+    public final void onError(java.lang.Throwable)
+    public final void onLoading()
+com.madfooatcom.movietestlibrary.utils.GenresConverter$Companion:
+    public synthetic void <init>(kotlin.jvm.internal.DefaultConstructorMarker)
+    public final java.lang.String ListToJson(java.util.List)
+    public final java.util.List JsonToList(java.lang.String)
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$17$1:
+    public final synthetic com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$17 this$1
+com.madfooatcom.movietestlibrary.ui.feature.movie.MovieFragment$$special$$inlined$viewModel$1:
+    public final androidx.lifecycle.ViewModel invoke()
+com.madfooatcom.movietestlibrary.ui.feature.tvshow.TVShowFragment$$special$$inlined$viewModel$1:
+    public final androidx.lifecycle.ViewModel invoke()
+com.madfooatcom.movietestlibrary.data.remote.source.RemoteDataSourceImpl$getTvShowDataDetailFromApi$1:
+    public final com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity apply(com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity)
+com.madfooatcom.movietestlibrary.data.remote.response.movie.detail.GenresItem:
+    public final java.lang.String getName()
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$13:
+    public final com.madfooatcom.movietestlibrary.data.repository.MovieRepositoryImpl invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$6:
+    public void bind(androidx.sqlite.db.SupportSQLiteStatement,com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity)
+    public final synthetic com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl this$0
+com.madfooatcom.movietestlibrary.di.ModuleKt$appModule$1$7:
+    public final com.madfooatcom.movietestlibrary.ui.feature.movie.MovieFragment invoke(org.koin.core.scope.Scope,org.koin.core.parameter.DefinitionParameters)
+com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieActivity$observeDataFavoriteChange$1:
+    public final void onChanged(com.madfooatcom.movietestlibrary.common.ViewState)
+com.madfooatcom.movietestlibrary.ui.feature.tvshow.TVShowFragment$observeDataChange$1:
+    public final void onChanged(com.madfooatcom.movietestlibrary.common.ViewState)
+com.madfooatcom.movietestlibrary.ui.feature.favorite.tvshow.TvShowFavoriteViewModel$getAllFavoriteTvShow$2:
+    public final void accept(androidx.paging.PagedList)
+com.madfooatcom.movietestlibrary.data.local.dao.TMDBDao_Impl$17:
+    public androidx.room.paging.LimitOffsetDataSource create()
+com.madfooatcom.movietestlibrary.data.local.source.LocalDataSourceImpl$getTvShowDetail$1:
+    public final boolean test(com.madfooatcom.movietestlibrary.data.local.entity.TvShowDetailEntity)
+com.madfooatcom.movietestlibrary.ui.feature.movie.MovieViewModel$getMovies$1:
+    public final void accept()

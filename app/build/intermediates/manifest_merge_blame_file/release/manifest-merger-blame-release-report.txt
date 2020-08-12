@@ -1,0 +1,83 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.databinding.basicsample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:8:5-25:19
+14        android:name="com.example.android.databinding.basicsample.TMDBApplication"
+14-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:9:9-40
+15        android:allowBackup="true"
+15-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:10:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.3.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\2fcaee52dfa6b98d827823ed126d3b88\core-1.3.0\AndroidManifest.xml:24:18-86
+17        android:hardwareAccelerated="true"
+17-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:11:9-43
+18        android:icon="@mipmap/ic_launcher"
+18-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:12:9-43
+19        android:label="@string/app_name"
+19-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:13:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:14:9-54
+21        android:supportsRtl="true"
+21-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:15:9-35
+22        android:theme="@style/AppTheme" >
+22-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:16:9-40
+23        <activity android:name="com.example.android.databinding.basicsample.MainActivity" >
+23-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:18:9-24:20
+23-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:18:19-47
+24            <intent-filter>
+24-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:19:13-23:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:20:17-69
+25-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:20:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:22:17-77
+27-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:22:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTVShowActivity" />
+30-->[:movietestlibrary] D:\GithubSamples\rx-mvvm-master\movietestlibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:9-114
+30-->[:movietestlibrary] D:\GithubSamples\rx-mvvm-master\movietestlibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-111
+31        <activity android:name="com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieActivity" />
+31-->[:movietestlibrary] D:\GithubSamples\rx-mvvm-master\movietestlibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:9-112
+31-->[:movietestlibrary] D:\GithubSamples\rx-mvvm-master\movietestlibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:19-109
+32        <activity android:name="com.madfooatcom.movietestlibrary.ui.MovieMainActivity" >
+32-->[:movietestlibrary] D:\GithubSamples\rx-mvvm-master\movietestlibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-15:20
+32-->[:movietestlibrary] D:\GithubSamples\rx-mvvm-master\movietestlibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:19-87
+33        </activity>
+34
+35        <provider
+35-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\de4ce10782d9a49da03f485280fa1ced\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+36            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+36-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\de4ce10782d9a49da03f485280fa1ced\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+37            android:authorities="com.example.android.databinding.basicsample.lifecycle-process"
+37-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\de4ce10782d9a49da03f485280fa1ced\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+38            android:exported="false"
+38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\de4ce10782d9a49da03f485280fa1ced\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+39            android:multiprocess="true" />
+39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\de4ce10782d9a49da03f485280fa1ced\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+40
+41        <service
+41-->[androidx.room:room-runtime:2.2.5] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\a0a1308b1a9cc11e55bbd860a128b550\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+42            android:name="androidx.room.MultiInstanceInvalidationService"
+42-->[androidx.room:room-runtime:2.2.5] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\a0a1308b1a9cc11e55bbd860a128b550\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+43            android:directBootAware="true"
+43-->[androidx.room:room-runtime:2.2.5] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\a0a1308b1a9cc11e55bbd860a128b550\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+44            android:exported="false" />
+44-->[androidx.room:room-runtime:2.2.5] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\a0a1308b1a9cc11e55bbd860a128b550\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+45    </application>
+46
+47</manifest>

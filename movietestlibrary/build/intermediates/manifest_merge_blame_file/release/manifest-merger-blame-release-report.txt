@@ -1,0 +1,27 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.madfooatcom.movietestlibrary"
+4    android:versionCode="2"
+5    android:versionName="35.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml
+10
+11    <application>
+11-->D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:4:5-10:19
+12        <activity android:name="com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTVShowActivity" />
+12-->D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:5:9-82
+12-->D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:5:19-79
+13        <activity android:name="com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieActivity" />
+13-->D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:6:9-80
+13-->D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:6:19-77
+14        <activity android:name="com.madfooatcom.movietestlibrary.ui.MovieMainActivity" >
+14-->D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:7:9-9:20
+14-->D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:7:19-55
+15        </activity>
+16    </application>
+17
+18</manifest>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+
+                 
+                          
+                                                                              
+           
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_movie_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <io.supercharge.shimmerlayout.ShimmerLayout
+            android:id="@+id/shimmerMovie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:shimmer_animation_duration="800"
+            app:shimmer_auto_start="true">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" android:tag="binding_1">
+
+                    <include layout="@layout/item_shimmer" />
+
+                    <include layout="@layout/item_shimmer" />
+
+                    <include layout="@layout/item_shimmer" />
+
+                    <include layout="@layout/item_shimmer" />
+
+                    <include layout="@layout/item_shimmer" />
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </io.supercharge.shimmerlayout.ShimmerLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvMovie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shimmerMovie"
+            android:tag="binding_2"     
+            android:visibility="gone"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </RelativeLayout>
+         

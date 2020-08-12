@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\GithubSamples\\rx-mvvm-master\\movietestlibrary\\build\\intermediates\\res\\merged\\release\\font\\mr.ttf",
+        "source": "D:\\GithubSamples\\rx-mvvm-master\\movietestlibrary\\src\\main\\res\\font\\mr.ttf"
+    },
+    {
+        "merged": "D:\\GithubSamples\\rx-mvvm-master\\movietestlibrary\\build\\intermediates\\res\\merged\\release\\font\\ml.ttf",
+        "source": "D:\\GithubSamples\\rx-mvvm-master\\movietestlibrary\\src\\main\\res\\font\\ml.ttf"
+    },
+    {
+        "merged": "D:\\GithubSamples\\rx-mvvm-master\\movietestlibrary\\build\\intermediates\\res\\merged\\release\\font\\mm.ttf",
+        "source": "D:\\GithubSamples\\rx-mvvm-master\\movietestlibrary\\src\\main\\res\\font\\mm.ttf"
+    }
+]

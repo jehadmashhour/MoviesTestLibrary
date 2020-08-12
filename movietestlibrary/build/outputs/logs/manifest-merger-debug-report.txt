@@ -1,0 +1,51 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:1:1-11:12
+	package
+		ADDED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:2:5-47
+		INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml
+		INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml
+		ADDED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:1:1-11:12
+		INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml
+		ADDED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:1:1-11:12
+		INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:4:5-10:19
+activity#com.madfooatcom.movietestlibrary.ui.feature.detailtvshow.DetailTVShowActivity
+ADDED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:5:9-82
+	android:name
+		ADDED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:5:19-79
+activity#com.madfooatcom.movietestlibrary.ui.feature.detailmovie.DetailMovieActivity
+ADDED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:6:9-80
+	android:name
+		ADDED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:6:19-77
+activity#com.madfooatcom.movietestlibrary.ui.MovieMainActivity
+ADDED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:7:9-9:20
+	android:name
+		ADDED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml:7:19-55
+uses-sdk
+INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml
+INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml
+INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml
+INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml
+		ADDED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml
+		INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml
+		ADDED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml
+		INJECTED from D:\GithubSamples\rx-mvvm-master\movietestlibrary\src\main\AndroidManifest.xml

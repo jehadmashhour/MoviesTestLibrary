@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\GithubSamples\\rx-mvvm-master\\movietestlibrary\\build\\intermediates\\res\\merged\\release\\interpolator-v21\\mtrl_fast_out_linear_in.xml",
+        "source": "C:\\Users\\jabdalqader\\.gradle\\caches\\transforms-2\\files-2.1\\214cb4337cacf7a7c32a39a92a03dee2\\material-1.1.0\\res\\interpolator-v21\\mtrl_fast_out_linear_in.xml"
+    },
+    {
+        "merged": "D:\\GithubSamples\\rx-mvvm-master\\movietestlibrary\\build\\intermediates\\res\\merged\\release\\interpolator-v21\\mtrl_fast_out_slow_in.xml",
+        "source": "C:\\Users\\jabdalqader\\.gradle\\caches\\transforms-2\\files-2.1\\214cb4337cacf7a7c32a39a92a03dee2\\material-1.1.0\\res\\interpolator-v21\\mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "D:\\GithubSamples\\rx-mvvm-master\\movietestlibrary\\build\\intermediates\\res\\merged\\release\\interpolator-v21\\mtrl_linear_out_slow_in.xml",
+        "source": "C:\\Users\\jabdalqader\\.gradle\\caches\\transforms-2\\files-2.1\\214cb4337cacf7a7c32a39a92a03dee2\\material-1.1.0\\res\\interpolator-v21\\mtrl_linear_out_slow_in.xml"
+    }
+]

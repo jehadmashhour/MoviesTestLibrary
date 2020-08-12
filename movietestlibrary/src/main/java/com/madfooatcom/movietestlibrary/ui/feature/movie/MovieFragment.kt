@@ -2,6 +2,7 @@ package com.madfooatcom.movietestlibrary.ui.feature.movie
 
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -30,7 +31,13 @@ class MovieFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
+        Log.wtf("1234inflater", inflater.toString())
+
+        Log.wtf("1234R.layout.fragment_movie", R.layout.fragment_movie.toString())
+        Log.wtf("1234container", container.toString())
+
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_movie, container, false)
+        Log.wtf("1234binding", binding.toString())
         return binding.root
     }
 
