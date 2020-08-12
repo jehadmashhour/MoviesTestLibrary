@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.example.android.databinding.basicsample"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
+4    android:versionCode="3"
+5    android:versionName="3.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
@@ -21,7 +21,7 @@
 15        android:allowBackup="true"
 15-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:10:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.3.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\2fcaee52dfa6b98d827823ed126d3b88\core-1.3.0\AndroidManifest.xml:24:18-86
+16-->[androidx.core:core:1.3.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\0b969c9626a163c7eeb0647fef8f49de\core-1.3.0\AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
 18        android:hardwareAccelerated="true"
 18-->D:\GithubSamples\rx-mvvm-master\app\src\main\AndroidManifest.xml:11:9-43
@@ -62,24 +62,24 @@
 35        </activity>
 36
 37        <provider
-37-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\de4ce10782d9a49da03f485280fa1ced\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+37-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\52d4111ecbe60a909dd5423774bcd79e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 38            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\de4ce10782d9a49da03f485280fa1ced\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\52d4111ecbe60a909dd5423774bcd79e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
 39            android:authorities="com.example.android.databinding.basicsample.lifecycle-process"
-39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\de4ce10782d9a49da03f485280fa1ced\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\52d4111ecbe60a909dd5423774bcd79e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
 40            android:exported="false"
-40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\de4ce10782d9a49da03f485280fa1ced\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\52d4111ecbe60a909dd5423774bcd79e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
 41            android:multiprocess="true" />
-41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\de4ce10782d9a49da03f485280fa1ced\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\52d4111ecbe60a909dd5423774bcd79e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
 42
 43        <service
-43-->[androidx.room:room-runtime:2.2.5] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\a0a1308b1a9cc11e55bbd860a128b550\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+43-->[androidx.room:room-runtime:2.2.5] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\4873206ebd3cd8af3ac37705334b5032\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
 44            android:name="androidx.room.MultiInstanceInvalidationService"
-44-->[androidx.room:room-runtime:2.2.5] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\a0a1308b1a9cc11e55bbd860a128b550\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+44-->[androidx.room:room-runtime:2.2.5] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\4873206ebd3cd8af3ac37705334b5032\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
 45            android:directBootAware="true"
-45-->[androidx.room:room-runtime:2.2.5] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\a0a1308b1a9cc11e55bbd860a128b550\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+45-->[androidx.room:room-runtime:2.2.5] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\4873206ebd3cd8af3ac37705334b5032\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
 46            android:exported="false" />
-46-->[androidx.room:room-runtime:2.2.5] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\a0a1308b1a9cc11e55bbd860a128b550\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+46-->[androidx.room:room-runtime:2.2.5] C:\Users\jabdalqader\.gradle\caches\transforms-2\files-2.1\4873206ebd3cd8af3ac37705334b5032\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
 47    </application>
 48
 49</manifest>

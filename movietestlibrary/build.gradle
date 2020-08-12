@@ -3,30 +3,6 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
-ext {
-    bintrayRepo = 'movietestlibrary'
-    bintrayName = 'com.madfooatcom.movietestlibrary'
-
-    publishedGroupId = 'com.madfooatcom.movietestlibrary'
-    libraryName = 'movietestlibrary'
-    artifact = 'movietestlibrary'
-
-    libraryDescription = 'Example library for loading Movies Test Library'
-
-    siteUrl = 'https://github.com/jehadmashhour/MoviesTestLibrary'
-    gitUrl = 'https://github.com/jehadmashhour/MoviesTestLibrary.git'
-
-    libraryVersion = '35.0.0'
-
-    developerId = 'farawla'
-    developerName = 'Jehad Abdalqader'
-    developerEmail = 'jehadmashhour@gmail.com'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
-
 
 
 android {

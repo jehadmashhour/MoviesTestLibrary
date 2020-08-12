@@ -13,6 +13,6 @@ public final class BuildConfig {
   public static final String APPLICATION_ID = "com.madfooatcom.movietestlibrary";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "";
-  public static final int VERSION_CODE = 2;
-  public static final String VERSION_NAME = "35.0.0";
+  public static final int VERSION_CODE = 3;
+  public static final String VERSION_NAME = "36.0.0";
 }

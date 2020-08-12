@@ -4,7 +4,7 @@
             "outputFile": "D:\\GithubSamples\\rx-mvvm-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jabdalqader\\.gradle\\caches\\transforms-2\\files-2.1\\9b0bb92287e344d8deb576b5d3f4217c\\appcompat-1.1.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\jabdalqader\\.gradle\\caches\\transforms-2\\files-2.1\\763eea3360e71a9384a6cbcb0a6347b7\\appcompat-1.1.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",
