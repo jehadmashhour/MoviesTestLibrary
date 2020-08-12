@@ -14,7 +14,7 @@
 
 # Uncomment this to preserve the line number information for
 # debugging stack traces.
--dontwarn androidx.databinding.**
+
 -keep class androidx.databinding.** { *; }
 -keep class com.madfooatcom.movietestlibrary.MovieInitializer { *; }
 -keep class * extends an*droidx.databinding.DataBinderMapper { *; }
